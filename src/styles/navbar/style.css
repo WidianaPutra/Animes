@@ -1,0 +1,25 @@
+.logo,
+.list-menu {
+  padding: 0px 3%;
+}
+
+.list-menu {
+  transition: all 1s;
+  border-radius: 0px 0px 0px 30px;
+  /* border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff; */
+}
+
+.list-menu a {
+  color: #fff;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .list-menu {
+    transform: translate(100%);
+    width: 50%;
+  }
+}
+
+/* 679 */

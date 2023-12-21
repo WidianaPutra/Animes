@@ -1,0 +1,28 @@
+.image-detail img {
+  height: 50vh;
+}
+
+.infor button {
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.synopsis {
+  border: 2px solid var(--candy);
+}
+
+@media screen and (max-width: 500px) {
+  .anime-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .infor {
+    padding: 10px 3px;
+  }
+
+  .infor h3 {
+    padding: 3px 0px;
+  }
+}
